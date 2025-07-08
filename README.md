@@ -5,9 +5,9 @@ using namespace std;
 // Função transversal: usada por várias contas
 void verifica_saldo(float saldo) {
     if (saldo < 0) {
-        cout << "⚠️ Saldo negativo detectado!\n";
+        cout << " Saldo negativo detectado!\n";
     } else {
-        cout << "✅ Saldo OK.\n";
+        cout << "Saldo OK.\n";
     }
 }
 
